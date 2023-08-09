@@ -1,0 +1,45 @@
+{
+	"name": "sveltekit-auth-starter",
+	"version": "0.0.1",
+	"private": true,
+	"description": "Sveltekit auth starter template",
+	"type": "module",
+	"author": "Danijel Beljan",
+	"scripts": {
+		"start": "pnpm run dev",
+		"dev": "cross-env NODE_ENV=dev npm run dev:svelte",
+		"dev:svelte": "vite dev",
+		"build": "cross-env NODE_ENV=production npm run build:svelte",
+		"build:svelte": "vite build",
+		"preview": "vite preview"
+	},
+	"browserslist": [],
+	"dependencies": {
+		"@lucia-auth/adapter-mysql": "^2.0.0",
+		"@lucia-auth/oauth": "^2.1.1",
+		"@planetscale/database": "^1.10.0",
+		"email-validator": "^2.0.4",
+		"lucia": "^2.2.0",
+		"typeid-js": "^0.3.0"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/kit": "^1.22.4",
+		"@typescript-eslint/eslint-plugin": "^6.3.0",
+		"@typescript-eslint/parser": "^6.3.0",
+		"cross-env": "^7.0.3",
+		"dotenv": "^16.3.1",
+		"eslint": "^8.46.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"prettier": "^3.0.1",
+		"prettier-plugin-svelte": "^3.0.3",
+		"sass": "^1.65.1",
+		"svelte": "^4.1.2",
+		"svelte-check": "^3.4.6",
+		"svelte-preprocess": "^5.0.4",
+		"tslib": "^2.6.1",
+		"typescript": "^5.1.6",
+		"vite": "^4.4.9"
+	}
+}

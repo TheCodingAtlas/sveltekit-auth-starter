@@ -2,15 +2,26 @@
 
 A [Sveltekit](https://github.com/sveltejs/kit#readme) starter template with built-in authentication and UI using [Lucia Auth](https://lucia-auth.com/).
 
+Report bugs/features via [github issues](https://github.com/TheCodingAtlas/sveltekit-auth-starter/issues), or more easier is to simply hit me up on [discord.](https://discord.gg/fKxa67EpnU)
+
+<img width="500" src="screenshot.png" />
+
+### Features
+
+- Github OAuth login/signup
+- Google OAuth login/signup
+- email/password login/signup
+- Auto detecting e-mails across login methods and user linking.
+- Logout hook
+- Basic route protection system
+- profile page (barebones, just for debugging at the moment)
+- basic styling ('inspired' by everybodys darling [linear](https://linear.app/))
+
 It's quite limited at the moment, but it will get you started quickly with 3 Auth methods (Google/Github/Email+password).
 
 [planetscale](https://planetscale.com) support only at the moment.
 
 No built-in ORM. Gives you the freedom to integrate your own.
-
-## Bugs / Feature requests / Community
-
-You can report/discuss things via [github issues](https://github.com/TheCodingAtlas/sveltekit-auth-starter/issues), or more easier is to simply hit me up on [discord.](https://discord.gg/fKxa67EpnU)
 
 ## Getting Started
 
@@ -35,16 +46,6 @@ Strongly recommend using [nvm](https://github.com/nvm-sh/nvm) and setting up [sh
 ## Docs
 
 The entire codebase is commented throughout, just dive in. If you have trouble understanding something, [hit me up](https://discord.gg/fKxa67EpnU) and I will help you.
-
-### Features
-
-- Github OAuth login/signup
-- Google OAuth login/signup
-- email/password login/signup
-- Auto detecting e-mails across login methods and user linking.
-- Logout hook
-- profile page (barebones, just for debugging at the moment)
-- basic styling ('inspired' by everybodys darling [linear](https://linear.app/))
 
 ### Notable changes
 
